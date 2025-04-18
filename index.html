@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바 기초 가이드</title>
+    <style>
+        body {
+            font-family: 'Nanum Gothic', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        code {
+            background-color: #f8f9fa;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .example {
+            background-color: #f1f8ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>자바 기초 가이드</h1>
+    
+    <h2>1. 자바란?</h2>
+    <p>자바는 객체 지향 프로그래밍 언어로, 플랫폼 독립적이며 "한 번 작성하면, 어디서나 실행된다"는 특징을 가지고 있습니다.</p>
+
+    <h2>2. 자바 개발 환경 설정</h2>
+    <ul>
+        <li>JDK (Java Development Kit) 설치</li>
+        <li>IDE 설치 (Eclipse, IntelliJ IDEA 등)</li>
+        <li>환경 변수 설정</li>
+    </ul>
+
+    <h2>3. 기본 문법</h2>
+    <div class="example">
+        <h3>첫 번째 자바 프로그램</h3>
+        <code>
+            public class HelloWorld {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;public static void main(String[] args) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;System.out.println("Hello, World!");<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;}<br>
+            }
+        </code>
+    </div>
+
+    <h2>4. 변수와 데이터 타입</h2>
+    <ul>
+        <li>기본 데이터 타입
+            <ul>
+                <li>정수형: byte, short, int, long</li>
+                <li>실수형: float, double</li>
+                <li>문자형: char</li>
+                <li>논리형: boolean</li>
+            </ul>
+        </li>
+        <li>참조 데이터 타입
+            <ul>
+                <li>클래스 (String 등)</li>
+                <li>배열</li>
+                <li>인터페이스</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h2>5. 제어문</h2>
+    <ul>
+        <li>조건문: if, switch</li>
+        <li>반복문: for, while, do-while</li>
+    </ul>
+
+    <h2>6. 객체 지향 프로그래밍</h2>
+    <ul>
+        <li>클래스와 객체</li>
+        <li>상속</li>
+        <li>다형성</li>
+        <li>캡슐화</li>
+        <li>추상화</li>
+    </ul>
+
+    <h2>7. 예외 처리</h2>
+    <div class="example">
+        <code>
+            try {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;// 예외가 발생할 수 있는 코드<br>
+            } catch (Exception e) {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;// 예외 처리 코드<br>
+            } finally {<br>
+            &nbsp;&nbsp;&nbsp;&nbsp;// 항상 실행되는 코드<br>
+            }
+        </code>
+    </div>
+
+    <h2>8. 컬렉션 프레임워크</h2>
+    <ul>
+        <li>List: ArrayList, LinkedList</li>
+        <li>Set: HashSet, TreeSet</li>
+        <li>Map: HashMap, TreeMap</li>
+    </ul>
+
+    <footer>
+        <p>이 가이드는 자바 프로그래밍을 시작하는 분들을 위한 기초 자료입니다.</p>
+    </footer>
+</body>
+</html>
